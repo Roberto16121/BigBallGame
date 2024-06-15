@@ -119,6 +119,7 @@ namespace BigBallGame.Balls
         {
             if (GameOver)
                 return;
+            UpdateBalls();
             gameWindow.BackgroundImage = null;
             bmp = new Bitmap(gameWindow.Width, gameWindow.Height);
             g = Graphics.FromImage(bmp);
@@ -126,9 +127,8 @@ namespace BigBallGame.Balls
             {
                 ball.Move();
             }
-            UpdateBalls();
-            
             DrawBalls();
+            
             gameWindow.BackgroundImage = bmp;
         }
 
