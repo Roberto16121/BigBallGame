@@ -1,6 +1,6 @@
 # BigBallGame
 ## About
-  Proiectul e realizat folosind Windows Forms App. Acesta este împarțit ăn mai multe clase. 
+  Proiectul e realizat folosind Windows Forms App. Acesta este împarțit în mai multe clase. 
 ## Principalele clase 
 ### Ball
 * Aici se stocheaza informațiile despre bilă cât și metodele pentru mișcarea și desenarea acesteia
